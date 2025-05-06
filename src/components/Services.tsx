@@ -1,5 +1,5 @@
 
-import { TreeDeciduous, Snow, Shovel, MapPin } from "lucide-react";
+import { TreeDeciduous, Cloud, Shovel, MapPin } from "lucide-react";
 import ServiceCard from "./ServiceCard";
 
 const Services = () => {
@@ -17,7 +17,7 @@ const Services = () => {
     {
       title: "Snow Removal",
       description: "Reliable winter snow removal services for residential and commercial properties, including plowing, shoveling, and salting.",
-      icon: <Snow size={24} className="text-primary" />
+      icon: <Cloud size={24} className="text-primary" />
     },
     {
       title: "Seasonal Cleanups",
